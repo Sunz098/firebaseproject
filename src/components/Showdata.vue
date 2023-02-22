@@ -105,6 +105,7 @@ async function showmenu() {
 
 async function deleatMenu(id) {
   await deleteDoc(doc(db, "foodmenu", id));
+  await deleteDoc(doc(db, "foodmenu", allmenu.value.pop(id)));
 }
 </script>
 
