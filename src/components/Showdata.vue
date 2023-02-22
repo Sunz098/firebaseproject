@@ -72,7 +72,6 @@
       </table>
     </div>
   </div>
-  <footer>ถ้ากดปุ่มลบรีหน้าเว็บ1รอบ</footer>
 </template>
 
 <script setup>
