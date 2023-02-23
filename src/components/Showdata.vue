@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="boxmenu">
     <h1>Menu</h1>
   </div>
 
@@ -109,10 +109,11 @@ async function deleatMenu(id) {
 </script>
 
 <style scoped>
-h1 {
+.boxmenu {
   display: flex;
   justify-content: center;
   justify-items: center;
+  margin-top: 20px;
 }
 
 .printgrop {

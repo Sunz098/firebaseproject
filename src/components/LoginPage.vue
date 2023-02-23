@@ -22,9 +22,9 @@
       />
     </div>
     <div class="btngrop row gap-5">
-      <button type="submit" class="btn btn-light col" @click="login()">Login</button>
+      <button type="submit" class="btn btn-secondary col" @click="login()">Login</button>
 
-      <button type="submit" class="btn btn-light col" @click="googlelogin()">
+      <button type="submit" class="btn btn-secondary col" @click="googlelogin()">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="16"
@@ -38,7 +38,7 @@
           />
         </svg>
       </button>
-      <button type="submit" class="btn btn-light col" @click="register()">
+      <button type="submit" class="btn btn-secondary col" @click="register()">
         Register
       </button>
     </div>
